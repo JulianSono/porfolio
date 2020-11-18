@@ -1,0 +1,27 @@
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.top-background{
+    width: 100%;
+}
+
+a{
+    color:#ffffff;
+}
+
+
+.menu-text{
+font-weight: 100;
+font-size: 2em;
+font-size: x-large;
+}
+
+.name-text{
+font-size: 40px;
+font-weight: bold;
+letter-spacing: 20px;
+color:#d4d0c7a4;
+margin-top: 35px;
+}
