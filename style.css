@@ -56,10 +56,15 @@ font-weight: 100;
  font-size: 50px;
 }
 
-#hero{
+#header-bg{
     background-image: url(./images/despaired-2261021_1920.png);
     background-size: cover;
     background-position: center right ;
     height: 100vh;
 }
 
+
+#project-title{
+ font-weight: 100;
+
+}
