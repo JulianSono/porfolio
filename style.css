@@ -68,3 +68,21 @@ font-weight: 100;
  font-weight: 100;
 
 }
+
+
+.titles{
+   top:100px
+}
+
+.project-title{
+    font-weight: 300;
+}
+
+.apple-p{
+    font-weight: 200;
+}
+
+.devider{
+    margin-top: 100px;
+    
+}
