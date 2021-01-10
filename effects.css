@@ -1,0 +1,8 @@
+.mouse-over{
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.mouse-over:hover{
+    opacity: 1;
+}

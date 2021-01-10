@@ -21,6 +21,7 @@
 
 
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="effects.css">
 
   <title>Document</title>
 </head>
@@ -29,10 +30,9 @@
   <!--Navitation-->
 
 
-  <nav class="navbar  navbar-expand-xl fixed-top position-absolute  w-100">
+  <!-- <nav class="navbar  navbar-expand-xl fixed-top position-absolute  w-100 fixedheader bg-dark">
     <span class="name-text ml-5">JULIAN RE</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse mr-5   menu-text " id="navbarNav">
@@ -49,7 +49,37 @@
 
       </ul>
     </div>
+  </nav> -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light  nav-bg fixed-top  menu-text text-center   ">
+    <a class="navbar-brand  name-text " href="#">JULIAN RE</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse    " id="navbarText">
+      <ul class="navbar-nav ml-auto mr-3 pr-3" >
+        <li class="nav-item active mr-4">
+          <a class="nav-link" href="#">Porfolio <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="#">About me</a>
+        </li>
+        <li class="nav-item mr-4">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+
+    </div>
   </nav>
+
+
+
+
+
+
+
+
 
   <!-- <header >
     <img src="./images/despaired-2261021_1920.png" class="img-fluid top-background" alt="">
@@ -78,73 +108,121 @@
       </div>
 
       <!--Apple Clone-->
-      <div class="row m-auto ">
+      <div class="row m-auto   d-flex align-items-center ">
 
-        <div class="col col-lg-6  ">
-        <a href="#"  data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="./images/apple.png" alt="" class="img-fluid"></a> 
+        <div class="col col-lg-6   ">
+          <div class="btn " data-toggle="modal" data-target="#iphoneModal"><img src="./images/apple.png" alt=""
+              class="img-fluid mouse-over border "></div>
         </div>
 
-        <!--middle column-->
-        <div class="col col-lg-2"></div>
-
-        <div class="col   col-lg-4  text-right titles ">
-
+        <div class="col   offset-lg-2 col-lg-4  text-right  ">
           <h2 class="project-title">Apple Clone</h2>
-
           <p class="apple-p">Like for like clone of apple.com main page. The skeleton was designed using Bootstrap
             as well as media
             queries</p>
+          <p class="apple-p">Visit Project: <a href="https://boring-tesla-075684.netlify.app/" class="apple-p"
+              style="color:#00eeff ;" target="_blank"><strong>Apple</strong></a></p>
         </div>
-      </div>
 
-      <div class="devider"></div>
+      </div>
 
       <!--Airbnb-->
-      <div class="row m-auto">
+      <div class="row m-auto d-flex align-items-center  project-margin">
 
-        <div class="col col-lg-6  titles  ">
-          <h2 class="project-title">Air B&B</h2>
+        <div class="col   col-lg-6   ">
+          <div class="btn" data-toggle="modal" data-target="#airbnbModal"> <img src="./images/air.png" alt=""
+              class="img-fluid mouse-over border"></div>
+        </div>
+
+        <div class="col offset-lg-2 col-lg-4  text-right   ">
+          <h2 class="project-title">Airbnb</h2>
           <p class="apple-p">Like for like clone of apple.com main page. The skeleton was designed using Bootstrap
             as well as media
             queries</p>
+          <p class="apple-p">Visit Project: <a href="https://optimistic-joliot-de3265.netlify.app/" class="apple-p"
+              style="color:#00eeff ;" target="_blank"><strong>Airbnb</strong></a></p>
+        </div>
+      </div>
+
+      <!--Newsweek-->
+      <div class="row m-auto d-flex align-items-center  project-margin">
+
+        <div class="col   col-lg-6  ">
+          <div class="btn " data-toggle="modal" data-target="#newsweekModal"> <img src="./images/newsweek.png" alt=""
+              class="img-fluid mouse-over border"></div>
         </div>
 
-        <!--middle column-->
-        <div class="col col-lg-2"></div>
-
-        <div class="col   col-lg-4  text-right test ">
-          <img src="./images/air.png" alt="" class="img-fluid border-1">
+        <div class="col offset-lg-2 col-lg-4  text-right   ">
+          <h2 class="project-title">Newsweek</h2>
+          <p class="apple-p">Newsweek constains mayor headlines, with latest news articles  a click away. A map locatotr allows your local news</p>
+          <p class="apple-p">Visit Project: <a href="https://friendly-tesla-c93b44.netlify.app/" class="apple-p"
+              style="color:#00eeff ;" target="_blank"><strong>Newsweek</strong></a></p>
         </div>
       </div>
     </div>
 
-    <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-       <img src="./images/apple2.png" alt="">
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+
+    fo
+
+    <!-- MODALS -->
+
+    <!-- Iphone Modal -->
+    <div class="modal fade  " id="iphoneModal" tabindex="-1" role="dialog" aria-labelledby="iphoneModal"
+      aria-hidden="true">
+      <div class="modal-dialog d-flex justify-content-center " role="document">
+        <div class="modal-body">
+
+          <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
+          </button>
+          <img src="/images/apple_large.png" alt="" style="height: 80vh;" class="align-self-center">
+          <div class="text-center  " style="background-color: white;"> <span class="popup-text">Apple Landing Page
+              Clone</span> </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+
+    <!--AirBnB Modal-->
+    <div class="modal fade  " id="newsweekModal" tabindex="-1" role="dialog" aria-labelledby="newsweekModal"
+      aria-hidden="true">
+      <div class="modal-dialog d-flex justify-content-center " role="document">
+        <div class="modal-body">
+
+          <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
+          </button>
+          <img src="/images/newsweek_large.png" alt="" style="height: 80vh;" class="align-self-center">
+          <div class="text-center  " style="background-color: white;"> <span class="popup-text">Newsweek Main
+              Page</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--AirBnB Modal-->
+    <div class="modal fade  " id="airbnbModal" tabindex="-1" role="dialog" aria-labelledby="airbnbModal"
+      aria-hidden="true">
+      <div class="modal-dialog d-flex justify-content-center " role="document">
+        <div class="modal-body">
+
+          <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
+          </button>
+          <img src="/images/air_large.png" alt="" style="height: 80vh;" class="align-self-center">
+          <div class="text-center  " style="background-color: white;"> <span class="popup-text">AirBnB Main Page</span>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </main>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
