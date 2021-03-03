@@ -76,6 +76,18 @@ font-size: x-large;
     background-size: cover;
 }
 
+.about-bg{
+    background-image: url(./images/aboutme1.png);
+
+    height: 100vh;
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 
 #project-title{
  font-weight: 100;
@@ -93,6 +105,7 @@ font-size: x-large;
 
 .apple-p{
     font-weight: 200;
+    font-size: 20px
 }
 
 .devider{
@@ -114,4 +127,49 @@ font-size: x-large;
 
 .nav-bg{
     background-color: #ffffff;
+}
+
+.no-gutter{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.aboutme-text{
+padding-top: 50px;
+
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.aboutme-p{
+
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 40px;
+  
+   
+}
+
+.about-me-p2{
+    font-weight: 300;
+}
+
+.view-work{
+    font-weight:bold;
+    font-size: 20px;
+    color:#3DBBEF;
+    padding-top: 40px;
+
+}
+.arrow-bounce {
+    animation-name: arrow-bounce ;
+    animation-timing-function: ease;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes arrow-bounce  {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-25px); }
+    100% { transform: translateY(0); }
 }
