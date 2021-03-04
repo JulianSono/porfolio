@@ -52,7 +52,7 @@
   </nav> -->
 
 
-  <nav class="navbar navbar-expand-lg navbar-light  nav-bg fixed-top  menu-text text-center   ">
+  <nav class="navbar navbar-expand-lg  nav-bg fixed-top  menu-text text-center bg-light   ">
     <a class="navbar-brand  name-text " href="#">JULIAN RE</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
       aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -102,9 +102,10 @@
   </div>
   </div>
 
-  <main>
-    <div class="container mx-5  m-auto ">
-      <h1 class="mt-5 text-center mb-5"><span id="project-title" class="border-bottom">PROJECTS</span> </h1>
+  <main class="bg-light">
+    <!--Projects-->
+    <div class="container   m-auto  ">
+      <h1 class="pt-5 text-center mb-5"><span id="project-title" class="border-bottom">PROJECTS</span> </h1>
       <div class="row mb-5 ">
       </div>
 
@@ -165,88 +166,146 @@
 
 
     <!-- About Me-->
-
-    
-    <div class="container-fluid no-gutter about-bg  ">
+    <div class="container-fluid no-gutter bg-secondary bg-dark ">
       <h1 class="mt-5 text-center  aboutme-text"><span class="border-bottom ">ABOUT ME</span> </h1>
-  
-      
+
+
       <div class="row my-5   ">
         <div class="col mt-5 col-xl-12 d-flex justify-content-center ">
 
+
+          <img src="./images/aboutme_pic.png" alt="" height="400px" class="">
+        </div>
+
+      </div>
+
+      <div class="row justify-content-center ">
+        <div class="col  pl-5 col-xl-6 my-5 ">
+          <p class="aboutme-p  ">I'm <span class="dev-text">Julian</span> , an inspiring web
+            developer in the p
+            amazing web application. I love discovering new ways of creating amazing content. Im a problem solver, im
+            relentless in finding a solution whenrocess of creating a problem is presented
+            <p class="aboutme-p "><span class="about-me-p2">Please check out some of my work</span> <span> <img
+                  src="./images/up_arrow.png" alt="" height="20px" class="mb-2 arrow-bounce "></span></p>
+
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--Contact me-->
+
+    <div class="container-fluid no-gutter ">
+      <div class="row justify-content-center mt-5">
+
+        <div class="col col-xl-4 d-flex align-items-center">
+          <div class="pl-5">
+            <p class="contact-p1 display-4"><strong> Let's Talk</strong></p>
+            <p class="contact-p2">If you have any questions, please get in touch</p>
+          </div>
+        </div>
+
+        <div class="col col-xl-4">
+
+          <form action="" class="needs-validation mt-5 ">
  
-          <img src="./images/aboutme_pic.png" alt="" height="400px" class="" >
+              <label for="textarea"></label>
+              <textarea name="" id="textarea" cols="30" rows="10" class="form-control contact-p" required></textarea>
+            </div>
+
+            <div class="form-group contact-p">
+              <input type="submit" id="sudmit" class="btn btn-lg btn-info contact-p">
+            </div>
+
+          </form>
         </div>
 
+        <div class="col col-xl-4 ">
+    <div>
+      <img src="/images/contact-bg.png"  alt="" class="img-fluid" style="height: 20vh;">
+    </div>
+        </div>
       </div>
 
-        <div class="row justify-content-center ">
-          <div class="col  pl-5 col-xl-6 my-5 ">
-            <p  class="aboutme-p  ">I'm  <span class="dev-text">Julian</span> , an inspiring web 
-              developer in the p
-              amazing web application. I love discovering new ways of creating amazing content. Im a problem solver, im relentless in finding a solution whenrocess of creating  a problem is presented
-              <p class="aboutme-p "><span class="about-me-p2">Please check out some of my work</span>  <span> <img src="./images/up_arrow.png" alt="" height="20px" class="mb-2 arrow-bounce "></span></p>
+      <div class="row bg-dark  text-center">
+        <div class="col">
+          <div class=" social">
+
+            <div class="ml-2  d-inline-block ">
+              <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter-square  fa-3x"></i></a>
               
-              </p>
-          </div>
+            </div>
 
-        </div>
+            <div class="ml-2 d-inline-block pl-5">
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a> 
+            </div>
 
-    </div>
+            <div class=" ml-2 d-inline-block pl-5">
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a> 
+           
+            </div>
 
-
-   
-
-    <!-- MODALS -->
-
-    <!-- Iphone Modal -->
-    <div class="modal fade  " id="iphoneModal" tabindex="-1" role="dialog" aria-labelledby="iphoneModal"
-      aria-hidden="true">
-      <div class="modal-dialog d-flex justify-content-center " role="document">
-        <div class="modal-body">
-
-          <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
-          </button>
-          <img src="/images/apple_large.png" alt="" style="height: 80vh;" class="align-self-center">
-          <div class="text-center  " style="background-color: white;"> <span class="popup-text">Apple Landing Page
-              Clone</span> </div>
-        </div>
-      </div>
-    </div>
-
-    <!--AirBnB Modal-->
-    <div class="modal fade  " id="newsweekModal" tabindex="-1" role="dialog" aria-labelledby="newsweekModal"
-      aria-hidden="true">
-      <div class="modal-dialog d-flex justify-content-center " role="document">
-        <div class="modal-body">
-
-          <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
-          </button>
-          <img src="/images/newsweek_large.png" alt="" style="height: 80vh;" class="align-self-center">
-          <div class="text-center  " style="background-color: white;"> <span class="popup-text">Newsweek Main
-              Page</span>
+            <p class="copy-text text-white mt-3">Copyright © Julian RE 2020</p>
           </div>
         </div>
       </div>
-    </div>
+      </div>
 
-    <!--AirBnB Modal-->
-    <div class="modal fade  " id="airbnbModal" tabindex="-1" role="dialog" aria-labelledby="airbnbModal"
-      aria-hidden="true">
-      <div class="modal-dialog d-flex justify-content-center " role="document">
-        <div class="modal-body">
 
-          <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
-          </button>
-          <img src="/images/air_large.png" alt="" style="height: 80vh;" class="align-self-center">
-          <div class="text-center  " style="background-color: white;"> <span class="popup-text">AirBnB Main Page</span>
+
+      <!-- MODALS -->
+
+      <!-- Iphone Modal -->
+      <div class="modal fade  " id="iphoneModal" tabindex="-1" role="dialog" aria-labelledby="iphoneModal"
+        aria-hidden="true">
+        <div class="modal-dialog d-flex justify-content-center " role="document">
+          <div class="modal-body">
+
+            <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
+            </button>
+            <img src="/images/apple_large.png" alt="" style="height: 80vh;" class="align-self-center">
+            <div class="text-center  " style="background-color: white;"> <span class="popup-text">Apple Landing Page
+                Clone</span> </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <!--AirBnB Modal-->
+      <div class="modal fade  " id="newsweekModal" tabindex="-1" role="dialog" aria-labelledby="newsweekModal"
+        aria-hidden="true">
+        <div class="modal-dialog d-flex justify-content-center " role="document">
+          <div class="modal-body">
+
+            <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
+            </button>
+            <img src="/images/newsweek_large.png" alt="" style="height: 80vh;" class="align-self-center">
+            <div class="text-center  " style="background-color: white;"> <span class="popup-text">Newsweek Main
+                Page</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--AirBnB Modal-->
+      <div class="modal fade  " id="airbnbModal" tabindex="-1" role="dialog" aria-labelledby="airbnbModal"
+        aria-hidden="true">
+        <div class="modal-dialog d-flex justify-content-center " role="document">
+          <div class="modal-body">
+
+            <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
+            </button>
+            <img src="/images/air_large.png" alt="" style="height: 80vh;" class="align-self-center">
+            <div class="text-center  " style="background-color: white;"> <span class="popup-text">AirBnB Main
+                Page</span>
+            </div>
+          </div>
+        </div>
+      </div>
 
   </main>
 

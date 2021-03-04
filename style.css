@@ -75,17 +75,17 @@ font-size: x-large;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+/* 
 .about-bg{
     background-image: url(./images/aboutme1.png);
-
-    height: 100vh;
-
+    height: 70vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
+
+
 
 
 
@@ -104,7 +104,7 @@ font-size: x-large;
 }
 
 .apple-p{
-    font-weight: 200;
+    font-weight: 300;
     font-size: 20px
 }
 
@@ -145,9 +145,25 @@ padding-top: 50px;
 
     color: #ffffff;
     font-weight: 100;
-    font-size: 40px;
+    font-size: 30px;
   
    
+}
+
+.contact-p{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.contact-p1
+{
+    font-weight: 300;
+
+
+}
+.contact-p2{
+    font-weight: 200;;
+    font-size: 30px;
 }
 
 .about-me-p2{
@@ -172,4 +188,35 @@ padding-top: 50px;
     0%   { transform: translateY(0); }
     50%  { transform: translateY(-25px); }
     100% { transform: translateY(0); }
+}
+
+
+.social{
+
+ padding-top:  30px; 
+}
+
+.name-text{
+
+    color: black;
+    font-size: large;
+
+}
+
+.copy-text{
+    font-weight: 300;
+    font-size:17px;
+}
+
+.fa-linkedin:hover{
+    color:#00eeff;
+}
+
+.fa-facebook-square:hover{
+    color:#00eeff; 
+}
+
+.fa-twitter-square:hover{
+    color:#00eeff;
+
 }
