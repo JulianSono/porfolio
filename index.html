@@ -24,51 +24,36 @@
   <link rel="stylesheet" href="effects.css">
 
   <title>Document</title>
+
 </head>
 
 <body>
   <!--Navitation-->
 
 
-  <!-- <nav class="navbar  navbar-expand-xl fixed-top position-absolute  w-100 fixedheader bg-dark">
-    <span class="name-text ml-5">JULIAN RE</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light menu-text text-center fixed-top">
+    <a class="navbar-brand " href="#"><span class="name-text">JULIAN RE</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse mr-5   menu-text " id="navbarNav">
-      <ul class="navbar-nav ml-auto  ">
-        <li class="nav-item  mx-3 mt-5 ">
-          <a class="nav-link  " href="#" class="">Porfolio </a>
-        </li>
-        <li class="nav-item mx-3 mt-5 ">
-          <a class="nav-link" href="#">About me</a>
-        </li>
-        <li class="nav-item mx-3 mt-5 ">
-          <a class="nav-link" href="#">Contact</a>
-        </li>
-
-    </ul>
-    </div>
-  </nav> -->
-
-
-  <nav class="navbar navbar-expand-lg  nav-bg fixed-top  menu-text text-center bg-light   ">
-    <a class="navbar-brand  name-text " href="#">JULIAN RE</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
-      aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse    " id="navbarText">
+    <div class="collapse navbar-collapse    " id="navbarNav">
       <ul class="navbar-nav ml-auto mr-3 pr-3">
-        <li class="nav-item active mr-4">
-          <a class="nav-link" href="#">Porfolio <span class="sr-only">(current)</span></a>
+        <li class="nav-item  mr-4">
+          <a class="nav-link " id="menu-links" href="#projects">PROJECTS </a>
         </li>
         <li class="nav-item mr-4">
-          <a class="nav-link" href="#">About me</a>
+          <a class="nav-link " id="menu-links" href="#aboutme">ABOUT ME</a>
         </li>
         <li class="nav-item mr-4">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link  " id="menu-links" href="#contact">CONTACT</a>
         </li>
+
+        <li class="nav-item mr-4">
+          <a class="nav-link  " id="menu-links" href="#">HOME</a>
+        </li>
+
+
       </ul>
 
     </div>
@@ -77,49 +62,52 @@
 
 
 
+  <div class="container-fluid d-flex  " id="header-bg">
 
 
+    <div class="row">
+
+      <div class="col col-lg-12 my-5 ">
+
+        <div class="intro-text">
+          <h1>Hello,</h1>
+          <p><span class="dev-text "> I'm a web developer</span> </p>
+          <p class="dev-text2">Ready to help your designs come to live!</p>
+
+        </div>
+      </div>
 
 
-
-  <!-- <header >
-    <img src="./images/despaired-2261021_1920.png" class="img-fluid top-background" alt="">
-    
-    <div class="intro"> 
-        <h2>Hello</h2>
     </div>
-    </header> -->
-
-  <div id="header-bg" class="position-relative">
-
-
-  </div>
-
-  <div class="intro-text">
-    <h1>Hello,</h1>
-    <p><span class="dev-text"> I'm a web developer</span>, ready to help your</p>
-    <p><span class="dev-text2">business thrive</span> </p>
   </div>
   </div>
+
+
+
+
+  <div id="projects" class="bg-light"><br></div>
 
   <main class="bg-light">
+
     <!--Projects-->
-    <div class="container   m-auto  ">
+    <div class="container   m-auto  no-gutter  ">
       <h1 class="pt-5 text-center mb-5"><span id="project-title" class="border-bottom">PROJECTS</span> </h1>
       <div class="row mb-5 ">
       </div>
 
       <!--Apple Clone-->
-      <div class="row m-auto   d-flex align-items-center ">
+      <div class="row m-auto   d-flex   ">
 
-        <div class="col col-lg-6   ">
+        <div class="col-12  col-lg-6 col-md-12 no-gutter  ">
+
           <div class="btn " data-toggle="modal" data-target="#iphoneModal"><img src="./images/apple.png" alt=""
               class="img-fluid mouse-over border "></div>
         </div>
 
-        <div class="col   offset-lg-2 col-lg-4  text-right  ">
-          <h2 class="project-title">Apple Clone</h2>
-          <p class="apple-p">Like for like clone of apple.com main page. The skeleton was designed using Bootstrap
+        <div
+          class="col   offset-md-0 col-lg-4    text-lg-right text-center pt-md-4  pt-lg-0  offset-sm-0  offset-lg-1   mb-sm-4">
+          <h3 class="project-title  pt-4 pt-md-0">Apple Clone</h3>
+          <p class="apple-p pt-4">Like for like clone of apple.com main page. The skeleton was designed using Bootstrap
             as well as media
             queries</p>
           <p class="apple-p">Visit Project: <a href="https://boring-tesla-075684.netlify.app/" class="apple-p"
@@ -129,16 +117,17 @@
       </div>
 
       <!--Airbnb-->
-      <div class="row m-auto d-flex align-items-center  project-margin">
+      <div class="row m-auto d-flex   project-margin">
 
-        <div class="col   col-lg-6   ">
+        <div class="col-12  col-lg-6 col-md-12 no-gutter ">
           <div class="btn" data-toggle="modal" data-target="#airbnbModal"> <img src="./images/air.png" alt=""
               class="img-fluid mouse-over border"></div>
         </div>
 
-        <div class="col offset-lg-2 col-lg-4  text-right   ">
-          <h2 class="project-title">Airbnb</h2>
-          <p class="apple-p">Like for like clone of apple.com main page. The skeleton was designed using Bootstrap
+        <div
+          class="col   offset-md-0 col-lg-4    text-lg-right text-center pt-md-4  pt-lg-0  offset-sm-0  offset-lg-1   mb-sm-4  ">
+          <h3 class="project-title  pt-4 pt-md-0">Airbnb</h3>
+          <p class="apple-p pt-4">Like for like clone of apple.com main page. The skeleton was designed using Bootstrap
             as well as media
             queries</p>
           <p class="apple-p">Visit Project: <a href="https://optimistic-joliot-de3265.netlify.app/" class="apple-p"
@@ -147,16 +136,18 @@
       </div>
 
       <!--Newsweek-->
-      <div class="row m-auto d-flex align-items-center  project-margin">
+      <div class="row m-auto d-flex  project-margin">
 
-        <div class="col   col-lg-6  ">
+        <div class="col-12  col-lg-6 col-md-12 no-gutter ">
           <div class="btn " data-toggle="modal" data-target="#newsweekModal"> <img src="./images/newsweek.png" alt=""
               class="img-fluid mouse-over border"></div>
         </div>
 
-        <div class="col offset-lg-2 col-lg-4  text-right   ">
-          <h2 class="project-title">Newsweek</h2>
-          <p class="apple-p">Newsweek constains mayor headlines, with latest news articles a click away. A map locatotr
+        <div
+          class="col   offset-md-0 col-lg-4    text-lg-right text-center pt-md-4  pt-lg-0  offset-sm-0  offset-lg-1   mb-sm-4  ">
+          <h3 class="project-title  pt-4 pt-md-0">Newsweek</h3>
+          <p class="apple-p pt-4">Newsweek constains mayor headlines, with latest news articles a click away. A map
+            locatotr
             allows your local news</p>
           <p class="apple-p">Visit Project: <a href="https://friendly-tesla-c93b44.netlify.app/" class="apple-p"
               style="color:#00eeff ;" target="_blank"><strong>Newsweek</strong></a></p>
@@ -164,13 +155,13 @@
       </div>
     </div>
 
-
+    <div id="aboutme"></div>
     <!-- About Me-->
-    <div class="container-fluid no-gutter bg-secondary bg-dark ">
-      <h1 class="mt-5 text-center  aboutme-text"><span class="border-bottom ">ABOUT ME</span> </h1>
+    <div class="container-fluid no-gutter bg-secondary bg-dark mt-5">
+      <h1 class=" text-center  aboutme-text pt-5"><span class="border-bottom ">ABOUT ME</span> </h1>
 
 
-      <div class="row my-5   ">
+      <div class="row my-3   ">
         <div class="col mt-5 col-xl-12 d-flex justify-content-center ">
 
 
@@ -185,8 +176,9 @@
             developer in the p
             amazing web application. I love discovering new ways of creating amazing content. Im a problem solver, im
             relentless in finding a solution whenrocess of creating a problem is presented
-            <p class="aboutme-p "><span class="about-me-p2">Please check out some of my work</span> <span> <img
-                  src="./images/up_arrow.png" alt="" height="20px" class="mb-2 arrow-bounce "></span></p>
+          <p class="aboutme-p pt-5  text-center "><span class="about-me-p2"><a href="#projects" id="check-work">Please
+                check out some of my work</a> <img src="./images/up_arrow.png" alt="" height="20px"
+                class="mb-2 arrow-bounce pl-3 pt-2 "></span></p>
 
           </p>
         </div>
@@ -197,68 +189,85 @@
 
     <!--Contact me-->
 
-    <div class="container-fluid no-gutter ">
-      <div class="row justify-content-center mt-5">
+    <div class="container-fluid no-gutter   ">
+      <div class="row ">
+        <div class="col-1 col-lg-3 col-md-1 col-sm-1 "></div>
+        <div class="col-10  col-lg-6  col-md-10  col-sm-10">
 
-        <div class="col col-xl-4 d-flex align-items-center">
-          <div class="pl-5">
-            <p class="contact-p1 display-4"><strong> Let's Talk</strong></p>
-            <p class="contact-p2">If you have any questions, please get in touch</p>
-          </div>
-        </div>
+          <!--Contact Form-->
 
-        <div class="col col-xl-4">
 
-          <form action="" class="needs-validation mt-5 ">
- 
+          <form action="" class="needs-validation mt-3  menu-text  " id="formhide">
+
+            <div class=" text-center" id="contact">
+              <h1 class=" aboutme-text text-dark"><span class="border-bottom "> LET'S TALK</span> </h1>
+              <p class="contact-p2 mt-3 mb-5">If you have any questions, fill in your details below</p>
+            </div>
+
+            <div class="form-group pt-5">
+              <label for="formGroupExampleInput">Name</label>
+              <input type="text" class="form-control " id="formGroupExampleInput" placeholder="Example input">
+            </div>
+
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Enter email">
+
+            </div>
+
+
+            <div>
               <label for="textarea"></label>
               <textarea name="" id="textarea" cols="30" rows="10" class="form-control contact-p" required></textarea>
             </div>
 
-            <div class="form-group contact-p">
-              <input type="submit" id="sudmit" class="btn btn-lg btn-info contact-p">
+            <div class="form-group contact-p mt-4 d-flex justify-content-end">
+              <input type="submit" id="submit" class="btn btn-lg btn-info contact-p">
             </div>
 
-          </form>
-        </div>
 
-        <div class="col col-xl-4 ">
-    <div>
-      <img src="/images/contact-bg.png"  alt="" class="img-fluid" style="height: 20vh;">
-    </div>
+
+          </form>
+
+          <article class="texthide"> <p>Thank you for enquiry</p></article>
+        
         </div>
+        <div class="col-1 col-lg-3 col-md-1 col-sm-1"></div>
       </div>
 
-      <div class="row bg-dark  text-center">
-        <div class="col">
+      <div class="row bg-dark  text-center mt-5">
+        <div class="col-12">
           <div class=" social">
 
             <div class="ml-2  d-inline-block ">
               <a href="https://twitter.com/home" target="_blank"><i class="fab fa-twitter-square  fa-3x"></i></a>
-              
+
             </div>
 
             <div class="ml-2 d-inline-block pl-5">
-              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a> 
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square fa-3x"></i></a>
             </div>
 
             <div class=" ml-2 d-inline-block pl-5">
-              <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a> 
-           
+              <a href="https://www.linkedin.com/in/julian-ramirez-58035358/" target="_blank"><i
+                  class="fab fa-linkedin fa-3x"></i></a>
+
             </div>
 
             <p class="copy-text text-white mt-3">Copyright © Julian RE 2020</p>
           </div>
         </div>
       </div>
-      </div>
+    </div>
 
 
 
-      <!-- MODALS -->
+    <!-- MODALS -->
 
-      <!-- Iphone Modal -->
-      <div class="modal fade  " id="iphoneModal" tabindex="-1" role="dialog" aria-labelledby="iphoneModal"
+    <!-- Iphone Modal -->
+    <div class="modal-hide">
+      <div class="modal fade   " id="iphoneModal" tabindex="-1" role="dialog" aria-labelledby="iphoneModal"
         aria-hidden="true">
         <div class="modal-dialog d-flex justify-content-center " role="document">
           <div class="modal-body">
@@ -266,7 +275,7 @@
             <button type="button" class="close ml-auto" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true" style="color:#d4d0c7a4"><i class="fas fa-times"></i></span>
             </button>
-            <img src="/images/apple_large.png" alt="" style="height: 80vh;" class="align-self-center">
+            <img src="/images/apple_large.png" alt="" style="height: 80vh;" class="align-self-center ">
             <div class="text-center  " style="background-color: white;"> <span class="popup-text">Apple Landing Page
                 Clone</span> </div>
           </div>
@@ -289,7 +298,7 @@
           </div>
         </div>
       </div>
-
+      <div class='check-width'></div>
       <!--AirBnB Modal-->
       <div class="modal fade  " id="airbnbModal" tabindex="-1" role="dialog" aria-labelledby="airbnbModal"
         aria-hidden="true">
@@ -306,15 +315,19 @@
           </div>
         </div>
       </div>
+    </div>
 
   </main>
 
+
+
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-  </script>
+    </script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
-  </script>
+    </script>
 </body>
 
 </html>
